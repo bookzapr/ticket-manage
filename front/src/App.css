@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* ปรับขนาดของคอลัมน์ */
+  justify-content: center;
+  align-items: center;
+}
+
+.main-table {
+  background-color: #ffffff;
+  padding: 20px;
+
+}
+
+.main-form {
+  background-color: #ffffff;
+  padding: 20px;
+
+}
+
+.title {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .App {
+    grid-template-columns: 1fr; /* เปลี่ยนเป็นแบบคอลัมน์เดียว */
+    align-items: start; /* จัดตำแหน่งส่วนหลังของหน้าจอ */
+  }
+}
